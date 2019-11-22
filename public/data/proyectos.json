@@ -1,0 +1,100 @@
+[
+  {
+    "img": "/img/proyectos/plastomex.png",
+    "titulo": "Plastomex",
+    "tipo": "Sitio web - [SPA]",
+    "desc": "Sitio web de tipo Single Page Aplication (SPA) para la empresa Plastomex, con BackEnd de email",
+    "id": 1,
+    "privado": false,
+    "tecnologias": [
+      "Vue.js",
+      "Vue Router",
+      "Webpack",
+      "Imagenes en WebP con fallback a png/jpg",
+      "Imagenes con Lazyload en imágenes",
+      "Animaciones CSS con IntersectionObserver",
+      "Nodemailer",
+      "Modernizr",
+      "SPF",
+      "Jivochat"
+    ],
+    "notas": [
+      "Tienen un BackEnd desvinculado, corriendo un servicio de Nodemailer, lo que permite un servicios de correo electronicos personalizado y gratuito. Actualmente solo funciona para el correo interno (contacto y apliaciones a la bolsa de trabajo), pero puede adaptarse para una campaña de email marketing.",
+      "El servicio de correo tiene protección CORS y un certificado SPF, el cual garantiza que el correo no será catalogado como spam",
+      "Este sitio puede actualizarse facilmente gracias a que tanto los productos como las imagenes de la galería se obtienen através de un objeto JSON, el cual puede modificarse facilmente sin tener que modificar el código del sitio web",
+      "Tiene la fluides de una SPA, pero también tienen los beneficios SEO de un sitio html normal, gracias a que está prerrenderizada"
+    ],
+    "url": "https://plastomex.com"
+  },
+  {
+    "img": "/img/proyectos/jefferson.png",
+    "titulo": "Intituto Jefferson Morelia",
+    "tipo": "Sitio web",
+    "desc": "Sitio web precompilado en Nunjucks, con alimentación de información por enlaces esxternos y JSON",
+    "id": 2,
+    "privado": false,
+    "tecnologias": [
+      "Nunjucks.js",
+      "Gulp",
+      "Imagenes en WebP con fallback a png/jpg",
+      "Lazyload en imágenes",
+      "Modernizr",
+      "Cloudflare CDN"
+    ],
+    "notas": [
+      "Al ser un sitio web precompilado, se reduce el trabajo del navegador en el cliente.",
+      "Los calendarios y contadores se actualizan automaticamente",
+      "Conexión con blog externo para la sección de noticias",
+      "Puntuación de 99 en ordenador y 85 en móvil, tiempo de carga en <1 segundo"
+    ],
+    "url": "https://ijm.edu.mx"
+  },
+  {
+    "img": "/img/proyectos/avopelle.png",
+    "titulo": "Avopelle",
+    "tipo": "E-commerce",
+    "desc": "E-commerce autoadministrable por el cms Wordpress y WooCommerce, con trabajo de optimización de rendimiento. Además de configuración de correos por SMTP",
+    "id": 3,
+    "privado": false,
+    "tecnologias": [
+      "Wordpress",
+      "Woocomerce",
+      "Hosting con Plesk",
+      "Imagenes en WebP con fallback a png/jpg",
+      "LiteSpeed Server",
+      "LiteSpeed Plugin",
+      "Pasarela de pago Openpay",
+      "SMTP mailing",
+      "Cloudflare CDN"
+    ],
+    "notas": [
+      "Está configurado para con el template y plugins actualizados automáticamente, dando un beneficio en cuestión de rendimiento",
+      "La optimización realizada es tal que anteriormente cargama en un promedio de 9 segundos, siendo el tiempo actual de maximo 3 segundos en promedio"
+    ],
+    "url": "https://avopelle.com.mx"
+  },
+  {
+    "img": "/img/proyectos/lcconsultoria.png",
+    "titulo": "LC Consultoría",
+    "tipo": "Landing Page",
+    "desc": "Página web tipo landing, para generar presencia web a la empresa, exponer sus obras y proporcionar medios de contactos [Aún en desarrollo]",
+    "id": 4,
+    "privado": false,
+    "url": "https://alfa.lcconsultoria.com"
+  },
+  {
+    "img": "/img/proyectos/plataforma1.png",
+    "titulo": "Plataforma Interna",
+    "tipo": "Plataforma de administración interna para una agencia ",
+    "desc": "Es una plataforma divididad en Front-End (dashboard) y Back-End (cms). Autoadministrable y configurable según las necesidades de la agencia. Realizada con software OpenSource ",
+    "id": 5,
+    "privado": true,
+    "tecnologias": ["Strapi.js", "Vue.js", "Vue Router", "Vuex", "Bootstrap 4"],
+    "notas": [
+      "Esta plataforma tiene el Front-End y Back-End desvinculados, gracias a las caracteristicas de usar un headless CMS como lo es Strapi.js",
+      "El panel de administración del Back-End, cuenta con una interfaz gráfica, en donde se pueden agregar los elementos e incluso subir archivos fácilmente, para el uso de personal ajeno al desarrollo",
+      "El dashboard utiliza Vue.js, un framework reactivo, por lo que si se desea, se pueden implementar websockets para poder ver reflejados los cambios en tiempo real sin necesidad de recargar la página",
+      "Una vez configurada las vistas (páginas), el escalado horizontal (agregar nuevos clientes, nuevos posteos, nuevas imagenes) no es ningún problema y podrá hacerlo alguien no especializado"
+    ]
+  }
+]
