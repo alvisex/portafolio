@@ -81,7 +81,7 @@
 					</div>
 				</div>
 				<div class="section text-right">
-					<h4>...y los que aún vienen.</h4>
+					<h4>...y los que están por venir.</h4>
 				</div>
 			</div>
 		</div>
@@ -141,6 +141,15 @@ export default {
 					desc:
 						"Es una plataforma divididad en Front-End (dashboard) y Back-End (cms). Autoadministrable y configurable según las necesidades de la agencia. Realizada con software OpenSource ",
 					id: 5
+				},
+				{
+					img: "/img/proyectos/dashboard.png",
+					titulo: "Plataforma Magna",
+					tipo:
+						"Plataforma de administración de empresa con Firebase como BaaS ",
+					desc:
+						"Es una plataforma tipo SPA (Single Page Application) con vistas dinámicas según uno de los 3 niveles jerárquicos de la empresa. Usa Firebase como backend (autenticación, base de tatos en tiempo real, mensajería, analytics y hosting)",
+					id: 6
 				}
 			]
 		};

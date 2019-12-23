@@ -16,7 +16,10 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="hero-images-container">
-								<img :src="p.img" alt />
+								<template v-if="p.imgs">
+									<img v-for="i in p.imgs" :key="i" :src="i" alt="sef" class="hero-img" />
+								</template>
+								<img v-if="!p.imgs" :src="p.img" alt />
 							</div>
 							<!-- <div class="hero-images-container-1">
 								<img src="/img/hero-image-2.png" alt />
@@ -110,5 +113,14 @@ export default {
 <style>
 .section-images {
 	height: 220px;
+}
+
+.hero-images-container {
+	display: inline-flex;
+}
+.hero-img {
+	width: 100%;
+	height: fit-content;
+	margin: 0.5em;
 }
 </style>

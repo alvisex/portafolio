@@ -39,7 +39,7 @@
 						>Bueno, se podría considerar que son un desarrollador Front-End que crea sitios web, pero eso no cubriria por completo todo lo que puedo hacer.</p>
 						<p
 							class="description"
-						>Las teconologías web perminen una gran gama de soluciones para distintas necesidades de las empresas o instituciones, desde presentar dinamica y estéticamente su imagen, hasta brindar soluciones y facilidades a los usuarios de las apliaciones web</p>
+						>Las teconologías web perminen una gran gama de soluciones para distintas necesidades de las empresas o instituciones, desde presentar dinámica y estéticamente su imagen, hasta brindar soluciones y facilidades a los usuarios de las apliaciones web</p>
 					</div>
 				</div>
 				<div class="row justify-content-md-center">

@@ -38,7 +38,7 @@
 					<p class="d-lg-none d-xl-none">Facebook</p>
 				</a>
 			</li>
-			<li class="nav-item">
+			<!-- <li class="nav-item">
 				<a
 					class="nav-link"
 					rel="tooltip"
@@ -49,8 +49,8 @@
 				>
 					<i class="fab fa-instagram"></i>
 					<p class="d-lg-none d-xl-none">Instagram</p>
-				</a>
-			</li>
+				</a> 
+			</li>-->
 		</template>
 	</navbar>
 </template>

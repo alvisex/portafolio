@@ -80,7 +80,7 @@
     "desc": "Página web tipo landing, para generar presencia web a la empresa, exponer sus obras y proporcionar medios de contactos [Aún en desarrollo]",
     "id": 4,
     "privado": false,
-    "url": "https://alfa.lcconsultoria.com"
+    "url": "https://beta.lcconsultoria.com"
   },
   {
     "img": "/img/proyectos/plataforma1.png",
@@ -96,5 +96,34 @@
       "El dashboard utiliza Vue.js, un framework reactivo, por lo que si se desea, se pueden implementar websockets para poder ver reflejados los cambios en tiempo real sin necesidad de recargar la página",
       "Una vez configurada las vistas (páginas), el escalado horizontal (agregar nuevos clientes, nuevos posteos, nuevas imagenes) no es ningún problema y podrá hacerlo alguien no especializado"
     ]
+  },
+  {
+    "img": "/img/proyectos/dashboard.png",
+    "imgs": ["/img/proyectos/menu.png", "/img/proyectos/vuelidate.png"],
+    "titulo": "Plataforma Magna",
+    "tipo": "Plataforma de administración interna para empresa",
+    "desc": "Es una plataforma tipo SPA (Single Page Application) con posibilidad a fungir como PWA (Progresive Web Application) una vez configurado el service worker. Es una plataforma serverless ya que al tener Firebase como BaaS (Backed as a service), toda la funcionalidad requeridad por un servidor se proporciona a traves de APIs, dando una gran versatilidad al sitio",
+    "id": 6,
+    "privado": false,
+    "tecnologias": [
+      "Vue.js",
+      "Vuex",
+      "Vue Router",
+      "Firebase: Cloud Firestore",
+      "Firebase: Authentication",
+      "Firebase: Analytics",
+      "Firebase: Hosting",
+      "Vuelidate",
+      "Vuefire y Vuexfire",
+      "Vuetify"
+    ],
+    "notas": [
+      "Plataforma Front-End estática con Back-End desvinculado, mediante conexiones a la API REST",
+      "El dashboard utiliza Vue.js, un framework reactivo, haciendo una gran sinergia con las APIs en tiempo real de Cloud Firestore ya que los cambios se puden visualizar en sin tener que recargar el sitio o repetir consultas.",
+      "Debido a que Firestore tiene una tarifa por numero de documentos leidos/escritos, se implementó VUEX para un manejo de información del usuario de manera global entre los componenetes así redundacia en la base de datos para un optimización en las escrituras/lecturas así como mejora en la interfaz de usuario.",
+      "Al haber configurado las vistas para cada nivel jerarquico, el aumento en el numero de usuarios no es ningún problema, e incluso es una operación que puede realizar un mismo usuario dentro de la plataforma",
+      "Las vistas mostradas son del usuario de prueba, debido a la privacidad de la empresa."
+    ],
+    "url": "https://magnamultinivel.firebaseapp.com/"
   }
 ]
