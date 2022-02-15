@@ -1,10 +1,52 @@
 [
   {
+    "img": "/img/proyectos/jac1.png",
+    "titulo": "JAC México",
+    "tipo": "Plataforma web - [SSR-SSG]",
+    "desc": "E-commerce a nivel nacional con alimentación de contenido por CMS y backend. Personalización por micrositio. Integración pasarelas de pago",
+    "keyname": "jac.mx",
+    "privado": false,
+    "tecnologias": [
+      "Vue.js",
+      "Nuxt",
+      "Vuetify 2",
+      "Sendgrid"
+    ],
+    "notas": [
+      "Carga de contenído dinámico vía CMS",
+      "Personalización de micrositios según subdominio y validación de backend",
+      "Funcionamiento en paralelo con la versión legacy, a través de discriminación por ruta en el proxy. Transparente para el usuario",
+      "Manejo de catálogo y funcionamiento para ordenes de apartado, enganche y vento por backend, a través de API rest"
+    ],
+    "url": "https://jac.mx"
+  },
+  {
+    "img": "/img/proyectos/sigo.png",
+    "titulo": "Sigo",
+    "tipo": "Sitio web - [SSR-SSG]",
+    "desc": "Landing Page y area de Blog, creada de manera súbita y temporal para manejo de leads previo al despliege de la plataforma estípulada (vtex)",
+    "keyname": "sigo",
+    "privado": false,
+    "tecnologias": [
+      "Vue.js",
+      "Nuxt",
+      "Vuetify 2",
+      "Strapi"
+    ],
+    "notas": [
+      "Conectado a un servicio de CMS (Strapi).",
+      "Carga de artículos para el blog de manera dinámica",
+      "Registro de leads con verificación vía OTP (código al correo electrónico)",
+      "Se adaptó contenido creado por algorítmo externo para detección de vehículo y obtención de su precio"
+    ],
+    "url": "https://www.sigosobreruedas.com/"
+  },
+  {
     "img": "/img/proyectos/plastomex.png",
     "titulo": "Plastomex",
     "tipo": "Sitio web - [SPA]",
     "desc": "Sitio web de tipo Single Page Aplication (SPA) para la empresa Plastomex, con BackEnd de email",
-    "id": 1,
+    "keyname": "plastomex",
     "privado": false,
     "tecnologias": [
       "Vue.js",
@@ -31,7 +73,7 @@
     "titulo": "Intituto Jefferson Morelia",
     "tipo": "Sitio web",
     "desc": "Sitio web precompilado en Nunjucks, con alimentación de información por enlaces esxternos y JSON",
-    "id": 2,
+    "keyname": "ijm",
     "privado": false,
     "tecnologias": [
       "Nunjucks.js",
@@ -54,7 +96,7 @@
     "titulo": "Avopelle",
     "tipo": "E-commerce",
     "desc": "E-commerce autoadministrable por el cms Wordpress y WooCommerce, con trabajo de optimización de rendimiento. Además de configuración de correos por SMTP",
-    "id": 3,
+    "keyname": "avopelle",
     "privado": false,
     "tecnologias": [
       "Wordpress",
@@ -68,6 +110,7 @@
       "Cloudflare CDN"
     ],
     "notas": [
+      "(Deprecado por cliente)",
       "Está configurado para con el template y plugins actualizados automáticamente, dando un beneficio en cuestión de rendimiento",
       "La optimización realizada es tal que anteriormente cargama en un promedio de 9 segundos, siendo el tiempo actual de maximo 3 segundos en promedio"
     ],
@@ -78,8 +121,11 @@
     "titulo": "LC Consultoría",
     "tipo": "Landing Page",
     "desc": "Página web tipo landing, para generar presencia web a la empresa, exponer sus obras y proporcionar medios de contactos [Aún en desarrollo]",
-    "id": 4,
+    "keyname": "lc",
     "privado": false,
+    "notas": [
+      "(Deprecado por cliente)"
+    ],
     "url": "https://beta.lcconsultoria.com"
   },
   {
@@ -87,9 +133,15 @@
     "titulo": "Plataforma Interna",
     "tipo": "Plataforma de administración interna para una agencia ",
     "desc": "Es una plataforma divididad en Front-End (dashboard) y Back-End (cms). Autoadministrable y configurable según las necesidades de la agencia. Realizada con software OpenSource ",
-    "id": 5,
+    "keyname": "dashboard-clout",
     "privado": true,
-    "tecnologias": ["Strapi.js", "Vue.js", "Vue Router", "Vuex", "Bootstrap 4"],
+    "tecnologias": [
+      "Strapi.js",
+      "Vue.js",
+      "Vue Router",
+      "Vuex",
+      "Bootstrap 4"
+    ],
     "notas": [
       "Esta plataforma tiene el Front-End y Back-End desvinculados, gracias a las caracteristicas de usar un headless CMS como lo es Strapi.js",
       "El panel de administración del Back-End, cuenta con una interfaz gráfica, en donde se pueden agregar los elementos e incluso subir archivos fácilmente, para el uso de personal ajeno al desarrollo",
@@ -99,12 +151,15 @@
   },
   {
     "img": "/img/proyectos/dashboard.png",
-    "imgs": ["/img/proyectos/menu.png", "/img/proyectos/vuelidate.png"],
+    "imgs": [
+      "/img/proyectos/menu.png",
+      "/img/proyectos/vuelidate.png"
+    ],
     "titulo": "Plataforma Magna",
     "tipo": "Plataforma de administración interna para empresa",
     "desc": "Es una plataforma tipo SPA (Single Page Application) con posibilidad a fungir como PWA (Progresive Web Application) una vez configurado el service worker. Es una plataforma serverless ya que al tener Firebase como BaaS (Backed as a service), toda la funcionalidad requeridad por un servidor se proporciona a traves de APIs, dando una gran versatilidad al sitio",
-    "id": 6,
-    "privado": false,
+    "keyname": "dashboard-magna",
+    "privado": true,
     "tecnologias": [
       "Vue.js",
       "Vuex",

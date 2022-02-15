@@ -92,18 +92,18 @@ export default {
 		};
 	},
 	computed: {
-		id() {
-			return this.$route.params.id;
+		keyname() {
+			return this.$route.params.keyname;
 		},
 		p() {
-			return this.proyectos.find(i => i.id == this.id);
+			return this.proyectos.find(i => i.keyname == this.keyname);
 		}
 	},
 	created() {
 		fetch("/data/proyectos.json")
 			.then(response => response.json())
 			.then(data => {
-				console.log(data);
+				// console.log(data);
 				this.proyectos = data;
 			})
 			.catch(err => console.error(err));

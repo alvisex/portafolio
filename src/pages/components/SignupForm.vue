@@ -34,19 +34,27 @@ export default {
 	data() {
 		return {
 			tecnologias: [
-				{ name: "HTML5", img: "/img/iconos/HTML_Logo.png" },
-				{ name: "Javascript ES6+", img: "/img/iconos/js.png" },
-				{ name: "Webpack", img: "/img/iconos/webpack.png" },
 				{ name: "Vue.js", img: "/img/iconos/vuejs.png" },
+				{ name: "Nuxt.js", img: "/img/iconos/nuxt.png" },
+				{ name: "Strapi", img: "/img/iconos/strapi.png" },
+				{ name: "Docker", img: "/img/iconos/docker.png" },
+				{ name: "Javascript ES6+", img: "/img/iconos/js.png" },
+				{ name: "Concourse", img: "/img/iconos/concourse.png" },
+				{ name: "GraphQL", img: "/img/iconos/graphql.png" },
+				{ name: "Webpack", img: "/img/iconos/webpack.png" },
 				{ name: "Node.js", img: "/img/iconos/nodejs.png" },
 				{ name: "Laravel", img: "/img/iconos/laravell.png" },
 				{ name: "Gulp", img: "/img/iconos/gulp.png" },
-				{ name: "PHP7", img: "/img/iconos/php7.png" },
-				{ name: "WebP", img: "/img/iconos/webp.png" },
+			
 				{ name: "MongoDB", img: "/img/iconos/mongodb.png" }
 			]
 		};
 	}
 };
 </script>
-<style></style>
+<style lang="scss">
+.social-line{
+	img{ object-fit: contain;}
+	
+}
+</style>

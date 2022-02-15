@@ -40,7 +40,7 @@ export default new Router({
       }
     },
     {
-      path: '/portafolio/:id',
+      path: '/portafolio/:keyname',
       name: 'proyecto',
       components: {
         default: Proyecto,
