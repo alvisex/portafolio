@@ -95,7 +95,7 @@ export default {
 					threshold: 0.5,
 					once: true
 				});
-		},100)
+		},500)
 	}
 };
 </script>
